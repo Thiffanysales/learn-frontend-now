@@ -419,7 +419,7 @@ function Index() {
               <h3 className="text-xl font-bold text-white">Vitor Hugo Passos Ramalho</h3>
               <p className="text-sm text-neutral-400 mt-1">Desenvolvedor Front-End</p>
               <div className="mt-6 flex flex-wrap gap-2">
-                <Social href="https://www.linkedin.com/in/vitor-hugo-passos-ramamlho-540965410?utm_source=share_via&utm_content=profile&utm_medium=member_ios" label="LinkedIn" icon={<Linkedin className="h-5 w-5" />} />
+                <Social href="https://www.linkedin.com/in/vitor-hugo-passos-ramamlho-540965410" label="LinkedIn" icon={<Linkedin className="h-5 w-5" />} />
                 <Social href="https://github.com/vitorhugopassosramalho" label="GitHub" icon={<Github className="h-5 w-5" />} />
                 <Social href="https://www.instagram.com/accounts/login/" label="Instagram" icon={<Instagram className="h-5 w-5" />} />
               </div>
