@@ -46,7 +46,7 @@ const nav = [
   { href: "#desafios", label: "Desafios" },
   { href: "#ods", label: "ODS 9" },
   { href: "#metodologia", label: "Metodologia" },
-  { href: "#contato", label: "Contato" },
+  { href: "#equipe", label: "Equipe" },
 ];
 
 function Index() {
@@ -141,10 +141,10 @@ function Index() {
               Explorar a profissão
             </a>
             <a
-              href="#contato"
+              href="#equipe"
               className="inline-flex items-center gap-2 rounded-full border border-neutral-300 px-6 py-3 text-sm font-medium hover:border-black transition"
             >
-              Redes & Contato
+              Nossa Equipe
             </a>
           </div>
         </div>
@@ -393,23 +393,47 @@ function Index() {
         </ul>
       </Section>
 
-      {/* CONTATO */}
-      <section id="contato" className="bg-black text-white py-24">
+      {/* EQUIPE */}
+      <section id="equipe" className="bg-black text-white py-24">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <span className="text-xs uppercase tracking-widest text-neutral-400">
-            Redes e Contatos
+            Nossa Equipe
           </span>
           <h2 className="mt-3 text-4xl md:text-5xl font-bold tracking-tight">
-            Vamos nos conectar
+            Quem somos
           </h2>
           <p className="mt-4 text-neutral-400 max-w-xl mx-auto">
-            Acompanhe meu trabalho ou entre em contato pelas redes abaixo.
+            Conheça os desenvolvedores por trás deste projeto.
           </p>
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Social href="https://linkedin.com/" label="LinkedIn" icon={<Linkedin className="h-5 w-5" />} />
-            <Social href="https://github.com/" label="GitHub" icon={<Github className="h-5 w-5" />} />
-            <Social href="https://instagram.com/" label="Instagram" icon={<Instagram className="h-5 w-5" />} />
-            <Social href="mailto:seuemail@exemplo.com" label="E-mail" icon={<Mail className="h-5 w-5" />} />
+          <div className="mt-10 grid md:grid-cols-2 gap-6 text-left">
+            <div className="rounded-2xl border border-neutral-700 p-6 bg-neutral-900 flex flex-col">
+              <h3 className="text-xl font-bold text-white">Thiffany Cristina da Silva Sales</h3>
+              <p className="text-sm text-neutral-400 mt-1">Desenvolvedor Front-End</p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                <Social href="https://www.linkedin.com/in/thiffany-cristina-da-silva-sales?utm_source=share_via&utm_content=profile&utm_medium=member_ios" label="LinkedIn" icon={<Linkedin className="h-5 w-5" />} />
+                <Social href="https://github.com/Thiffanysales" label="GitHub" icon={<Github className="h-5 w-5" />} />
+                <Social href="https://www.instagram.com/accounts/login/" label="Instagram" icon={<Instagram className="h-5 w-5" />} />
+              </div>
+            </div>
+            <div className="rounded-2xl border border-neutral-700 p-6 bg-neutral-900 flex flex-col">
+              <h3 className="text-xl font-bold text-white">Vitor Hugo Passos Ramalho</h3>
+              <p className="text-sm text-neutral-400 mt-1">Desenvolvedor Front-End</p>
+              <div className="mt-6 flex flex-wrap gap-2">
+                <Social href="https://www.linkedin.com/in/vitor-hugo-passos-ramamlho-540965410?utm_source=share_via&utm_content=profile&utm_medium=member_ios" label="LinkedIn" icon={<Linkedin className="h-5 w-5" />} />
+                <Social href="https://github.com/vitorhugopassosramalho" label="GitHub" icon={<Github className="h-5 w-5" />} />
+                <Social href="https://www.instagram.com/accounts/login/" label="Instagram" icon={<Instagram className="h-5 w-5" />} />
+              </div>
+            </div>
+          </div>
+          <div className="mt-10">
+            <p className="text-neutral-400 text-sm">E-mail do projeto</p>
+            <a
+              href="mailto:thiffanyevitor@gmail.com"
+              className="inline-flex items-center gap-2 mt-2 text-white underline underline-offset-4 hover:text-neutral-300 transition"
+            >
+              <Mail className="h-4 w-4" />
+              thiffanyevitor@gmail.com
+            </a>
           </div>
         </div>
       </section>
