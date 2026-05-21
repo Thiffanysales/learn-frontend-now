@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Desenvolvedor Front-End" },
+      { name: "description", content: "A professional website to showcase the Front-End Developer career path." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Desenvolvedor Front-End" },
+      { property: "og:description", content: "A professional website to showcase the Front-End Developer career path." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Desenvolvedor Front-End" },
+      { name: "twitter:description", content: "A professional website to showcase the Front-End Developer career path." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9c3e19f7-68ef-4c84-9ca4-c35e2d37d485/id-preview-60288f3c--0f27388e-b9fe-4896-9bb4-afd8923059f4.lovable.app-1779389204780.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9c3e19f7-68ef-4c84-9ca4-c35e2d37d485/id-preview-60288f3c--0f27388e-b9fe-4896-9bb4-afd8923059f4.lovable.app-1779389204780.png" },
     ],
     links: [
       {
